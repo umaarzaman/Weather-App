@@ -75,3 +75,17 @@ ul#tasklist li.completed{
     text-decoration: line-through;
     color: gray;
 }
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+
+    input#taskinput {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button#addtaskbtn {
+        width: 100%;
+    }
+}
